@@ -6,5 +6,6 @@ data class DemoDTO(
     val uuid: UUID,
     val name: String,
     val fruits: List<String>,
-    val movies: List<String>
+    val movies: List<String>,
+    val status: String = "CREATED"
 )
